@@ -1,0 +1,108 @@
+#include <iostream>
+
+using namespace std;
+
+//problema 1
+int sumaArrays(const int cadena[], const int len)
+{
+    long int suma=0;
+    for(int i=0; i<len ; suma += cadena[i++]);
+    return suma;
+
+}
+
+//problema 2
+int menor(const int arr[], const int len){
+    int men= arr[0];
+    for(int i=0; i<len ; i++){
+        if(arr[i]< men)
+            men=arr[i];
+    }
+    return men;
+}
+
+//problema 3
+bool perfecto(int a){
+    int b;
+    int c=0;
+    for (b=1; b<a-1; b++) {
+        if (a % b == 0)
+        c += b;
+    }
+
+    if (a == c)
+        return true;
+
+    else
+        return false;
+
+}
+int cantPerfArrays(const int array[], const int len) {
+   int canperf = 0;
+   for(int i = 0; i < len;  i++){
+        if( perfecto(array[i]))
+            canperf +=1;
+    }
+   return canperf;
+}
+//problema 4
+void ordenDescen(int cadena[],int len){
+    for(int i=0; i<len ; i++){
+        for(int j=0; j<len ;j++){
+            if(cadena[j]<cadena[i]) {
+                int c=cadena[i];
+                cadena[i]=cadena[j];
+                cadena[j]=c;
+            }
+        }
+    }
+}
+void ordenAscen(int cadena[],int len){
+    for(int i=0; i<len ; i++){
+        for(int j=0; j<len ;j++){
+            if(cadena[j]>cadena[i]) {
+                int c=cadena[j];
+                cadena[j]=cadena[i];
+                cadena[i]=c;
+            }
+        }
+    }
+}
+
+//problema 5
+void reversa(int cadena[],int len){
+    for(int i=0; i<=(len/2) ; i++){
+        int change=cadena[i];
+        cadena[i]=cadena[len-1];
+        cadena[len-1]=change;
+        len-=1;
+    }
+}
+
+//problema de recursividad de PALÍNDROME
+/*int isPali(char cadena[0]){
+    if(cadena[0]==cadena['\0'])
+        return true;
+    else
+        return isPali(cadena[1])
+}
+*/
+int main()
+{
+    int sumInt[]={6,1,2,3,6,6};
+    //cout << "suma: " << sumaArrays(sumInt,10) << endl;
+    //cout << " El menor es: " << menor(sumInt,10) << endl;int sumInt[]={6,1,2,3};
+    //cout << "La cantidad de numeros perfectos es: " << cantPerfArrays(sumInt,6)<< endl;
+    /*ordenDescen(sumInt,6);
+    for(int i=0;i<6;i++)
+        cout << sumInt[i];
+    cout << endl;
+    ordenAscen(sumInt,6);
+    for(int i=0;i<6;i++)
+        cout << sumInt[i];*/
+    reversa(sumInt,6);
+    for(int i=0;i<6;i++)
+        cout << sumInt[i];
+    //cout << isPali(sumInt) << endl;
+    return 0;
+}
