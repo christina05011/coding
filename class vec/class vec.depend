@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1540477666 source:d:\class vec\src\array.cpp
+	"PointArray.h"
+
+1540476339 d:\class vec\include\array.h
+	"Point.h"
+
+1540477721 d:\class vec\include\point.h
+
+1540478625 source:d:\class vec\main.cpp
+	<iostream>
+	"Vector.h"
+	"PointArray.h"
+
+1540477761 d:\class vec\include\vector.h
+	"Point.h"
+
+1540478027 d:\class vec\include\pointarray.h
+	"Point.h"
+
+1540478828 source:d:\class vec\src\pointarray.cpp
+	"PointArray.h"
+
+1540476050 source:d:\class vec\src\point.cpp
+	"Point.h"
+	<iostream>
+
+1540477761 source:d:\class vec\src\vector.cpp
+	"Vector.h"
+	<iostream>
+	<cmath>
+
