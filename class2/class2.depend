@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1540914846 source:d:\class2\src\point.cpp
+	"Point.h"
+	<iostream>
+
+1540914846 d:\class2\include\point.h
+
+1540916367 source:d:\class2\main.cpp
+	<iostream>
+	"PointArray.h"
+
+1540915352 d:\class2\include\pointarray.h
+	"Point.h"
+
+1540916657 source:d:\class2\src\pointarray.cpp
+	"PointArray.h"
+	"Point.h"
+
