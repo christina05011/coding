@@ -1,0 +1,39 @@
+# depslib dependency file v1.0
+1541649101 source:d:\practiceanimal\src\gato.cpp
+	"Gato.h"
+	<iostream>
+
+1541647689 d:\practiceanimal\include\gato.h
+	<iostream>
+	"Animal.h"
+
+1541649101 source:d:\practiceanimal\src\loro.cpp
+	"Loro.h"
+	<iostream>
+
+1541648654 d:\practiceanimal\include\loro.h
+	<iostream>
+	"Animal.h"
+
+1541649101 source:d:\practiceanimal\src\perro.cpp
+	"Perro.h"
+	<iostream>
+
+1541650096 d:\practiceanimal\include\perro.h
+	<iostream>
+	"Animal.h"
+
+1541646937 source:d:\practiceanimal\src\animal.cpp
+	"Animal.h"
+	<iostream>
+
+1541646581 d:\practiceanimal\include\animal.h
+	<iostream>
+
+1541651080 source:d:\practiceanimal\main.cpp
+	<iostream>
+	"Animal.h"
+	"Perro.h"
+	"Gato.h"
+	"Loro.h"
+
