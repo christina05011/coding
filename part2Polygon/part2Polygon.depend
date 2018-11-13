@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1542111701 source:d:\part2polygon\main.cpp
+	"PolygonArray.h"
+	"Polygon.h"
+	<iostream>
+
+1542112185 d:\part2polygon\include\polygonarray.h
+	"Polygon.h"
+	<iostream>
+
+1542112164 d:\part2polygon\include\polygon.h
+	<iostream>
+
+1542111406 source:d:\part2polygon\src\polygon.cpp
+	"Polygon.h"
+	<iostream>
+
+1542112164 source:d:\part2polygon\src\polygonarray.cpp
+	"PolygonArray.h"
+	"Polygon.h"
+	<iostream>
+

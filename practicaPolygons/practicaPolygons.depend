@@ -1,0 +1,43 @@
+# depslib dependency file v1.0
+1541687841 source:d:\practicapolygons\main.cpp
+	<iostream>
+	<math.h>
+	"Polygon.h"
+	"Circle.h"
+	"Rectangle.h"
+	"Triangle.h"
+
+1541686869 source:d:\practicapolygons\src\polygon.cpp
+	"Polygon.h"
+	<iostream>
+
+1541686868 d:\practicapolygons\include\polygon.h
+	<iostream>
+
+1541687595 source:d:\practicapolygons\src\circle.cpp
+	"Circle.h"
+	<iostream>
+	<cmath>
+
+1541687198 d:\practicapolygons\include\circle.h
+	<math.h>
+	<iostream>
+
+1541687595 source:d:\practicapolygons\src\rectangle.cpp
+	"Rectangle.h"
+	"Polygon.h"
+	<iostream>
+
+1541687198 d:\practicapolygons\include\rectangle.h
+	"Polygon.h"
+	<iostream>
+
+1541687595 source:d:\practicapolygons\src\triangle.cpp
+	"Triangle.h"
+	"Polygon.h"
+	<iostream>
+
+1541687198 d:\practicapolygons\include\triangle.h
+	"Polygon.h"
+	<iostream>
+
