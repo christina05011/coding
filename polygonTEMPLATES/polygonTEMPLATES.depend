@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1514140574 source:d:\polygontemplates\main.cpp
+	<iostream>
+
+1542256916 source:d:\polygontemplates\src\polygon.cpp
+	"Polygon.h"
+	<iostream>
+
+1542256564 d:\polygontemplates\include\polygon.h
+	<iostream>
+
